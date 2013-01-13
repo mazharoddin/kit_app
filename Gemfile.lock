@@ -63,6 +63,7 @@ GEM
     devise-encryptable (0.1.1)
       devise (>= 2.1.0.rc)
     erubis (2.7.0)
+    eventmachine (1.0.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
     faraday (0.8.4)
@@ -189,6 +190,10 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
+    thin (1.5.0)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
     thor (0.16.0)
     tilt (1.3.3)
     tins (0.6.0)
@@ -224,4 +229,5 @@ DEPENDENCIES
   mysql2
   rails (= 3.2.11)
   sass-rails (~> 3.2.3)
+  thin
   uglifier (>= 1.0.3)
