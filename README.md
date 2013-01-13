@@ -15,7 +15,8 @@ Installation
     git clone git://github.com/dsc-os/kit-app.git
     cd kit-app
     bundle
-    rake db:reset
+    rake db:create
+    rake db:schema:load
     rake db:data:load
     vendor/es/bin/elasticsearch
     rails s thin
