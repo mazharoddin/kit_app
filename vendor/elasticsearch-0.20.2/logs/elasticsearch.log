@@ -19,3 +19,12 @@
 [2013-01-13 15:44:03,341][INFO ][node                     ] [Living Pharaoh] {0.20.2}[58141]: stopped
 [2013-01-13 15:44:03,341][INFO ][node                     ] [Living Pharaoh] {0.20.2}[58141]: closing ...
 [2013-01-13 15:44:03,346][INFO ][node                     ] [Living Pharaoh] {0.20.2}[58141]: closed
+[2013-01-13 17:13:53,120][INFO ][node                     ] [Maximoff, Pietro] {0.20.2}[61366]: initializing ...
+[2013-01-13 17:13:53,124][INFO ][plugins                  ] [Maximoff, Pietro] loaded [], sites []
+[2013-01-13 17:13:54,706][INFO ][node                     ] [Maximoff, Pietro] {0.20.2}[61366]: initialized
+[2013-01-13 17:13:54,707][INFO ][node                     ] [Maximoff, Pietro] {0.20.2}[61366]: starting ...
+[2013-01-13 17:13:54,770][INFO ][transport                ] [Maximoff, Pietro] bound_address {inet[/0:0:0:0:0:0:0:0%0:9301]}, publish_address {inet[/192.168.0.224:9301]}
+[2013-01-13 17:13:57,824][INFO ][cluster.service          ] [Maximoff, Pietro] detected_master [Skull the Slayer][4WxAI-KOSdKH3yAaBNkjFw][inet[/192.168.0.224:9300]], added {[Skull the Slayer][4WxAI-KOSdKH3yAaBNkjFw][inet[/192.168.0.224:9300]],}, reason: zen-disco-receive(from master [[Skull the Slayer][4WxAI-KOSdKH3yAaBNkjFw][inet[/192.168.0.224:9300]]])
+[2013-01-13 17:13:57,847][INFO ][discovery                ] [Maximoff, Pietro] elasticsearch/OP45mv8qT5OZxN9pPnP4Sg
+[2013-01-13 17:13:57,850][INFO ][http                     ] [Maximoff, Pietro] bound_address {inet[/0:0:0:0:0:0:0:0%0:9201]}, publish_address {inet[/192.168.0.224:9201]}
+[2013-01-13 17:13:57,850][INFO ][node                     ] [Maximoff, Pietro] {0.20.2}[61366]: started
