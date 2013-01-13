@@ -1,0 +1,17 @@
+[2013-01-13 15:29:53,259][INFO ][node                     ] [Living Pharaoh] {0.20.2}[58141]: initializing ...
+[2013-01-13 15:29:53,264][INFO ][plugins                  ] [Living Pharaoh] loaded [], sites []
+[2013-01-13 15:29:55,055][INFO ][node                     ] [Living Pharaoh] {0.20.2}[58141]: initialized
+[2013-01-13 15:29:55,055][INFO ][node                     ] [Living Pharaoh] {0.20.2}[58141]: starting ...
+[2013-01-13 15:29:55,174][INFO ][transport                ] [Living Pharaoh] bound_address {inet[/0:0:0:0:0:0:0:0%0:9300]}, publish_address {inet[/192.168.0.224:9300]}
+[2013-01-13 15:29:58,247][INFO ][cluster.service          ] [Living Pharaoh] new_master [Living Pharaoh][EAOsO9HoRXqmottgl3X_mQ][inet[/192.168.0.224:9300]], reason: zen-disco-join (elected_as_master)
+[2013-01-13 15:29:58,275][INFO ][discovery                ] [Living Pharaoh] elasticsearch/EAOsO9HoRXqmottgl3X_mQ
+[2013-01-13 15:29:58,292][INFO ][http                     ] [Living Pharaoh] bound_address {inet[/0:0:0:0:0:0:0:0%0:9200]}, publish_address {inet[/192.168.0.224:9200]}
+[2013-01-13 15:29:58,292][INFO ][node                     ] [Living Pharaoh] {0.20.2}[58141]: started
+[2013-01-13 15:29:58,328][INFO ][gateway                  ] [Living Pharaoh] recovered [0] indices into cluster_state
+[2013-01-13 15:36:59,384][INFO ][cluster.metadata         ] [Living Pharaoh] [kit_kit_users] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2013-01-13 15:36:59,738][INFO ][cluster.metadata         ] [Living Pharaoh] [kit_kit_users] update_mapping [user] (dynamic)
+[2013-01-13 15:37:00,160][INFO ][cluster.metadata         ] [Living Pharaoh] [kit_kit_categories] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2013-01-13 15:37:00,310][INFO ][cluster.metadata         ] [Living Pharaoh] [kit_kit_categories] update_mapping [category] (dynamic)
+[2013-01-13 15:37:00,405][INFO ][cluster.metadata         ] [Living Pharaoh] [kit_kit_pages] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2013-01-13 15:37:00,547][INFO ][cluster.metadata         ] [Living Pharaoh] [kit_kit_pages] update_mapping [page] (dynamic)
+[2013-01-13 15:37:00,622][INFO ][cluster.metadata         ] [Living Pharaoh] [kit_kit_pages] update_mapping [page] (dynamic)
