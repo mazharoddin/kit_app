@@ -1,4 +1,4 @@
-kit-app
+kit_app - A sample app instance of the Kit CMS
 =======
 
 A simple application using DSC's Kit CMS engine to provide a complete, highly functional community web site.  In fact, the app
