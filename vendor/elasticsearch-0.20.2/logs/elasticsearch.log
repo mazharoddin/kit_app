@@ -15,3 +15,7 @@
 [2013-01-13 15:37:00,405][INFO ][cluster.metadata         ] [Living Pharaoh] [kit_kit_pages] creating index, cause [auto(index api)], shards [5]/[1], mappings []
 [2013-01-13 15:37:00,547][INFO ][cluster.metadata         ] [Living Pharaoh] [kit_kit_pages] update_mapping [page] (dynamic)
 [2013-01-13 15:37:00,622][INFO ][cluster.metadata         ] [Living Pharaoh] [kit_kit_pages] update_mapping [page] (dynamic)
+[2013-01-13 15:44:03,261][INFO ][node                     ] [Living Pharaoh] {0.20.2}[58141]: stopping ...
+[2013-01-13 15:44:03,341][INFO ][node                     ] [Living Pharaoh] {0.20.2}[58141]: stopped
+[2013-01-13 15:44:03,341][INFO ][node                     ] [Living Pharaoh] {0.20.2}[58141]: closing ...
+[2013-01-13 15:44:03,346][INFO ][node                     ] [Living Pharaoh] {0.20.2}[58141]: closed
