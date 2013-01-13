@@ -12,7 +12,7 @@ Installation
 
 (These instructions assume you're using a Unix-like OS.  It should all work on Windows too, but installation might need tweaking. They also assume you've a recent version of MySQL, git, rubygems, bundler installed.  If not, install those first.)
 
-    git clone git://github.com/dsc-os/kit-app.git
+    git clone git://github.com/dsc-os/kit_app.git
     cd kit-app
     bundle
     rake db:create
