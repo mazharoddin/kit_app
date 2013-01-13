@@ -10,10 +10,23 @@ starting with the [kit_cms gem itself](https://github.com/dsc-os/kit_cms).
 Installation
 ------------
 
-(These instructions assume you're using a Unix-like OS.  It should all work on Windows too, but installation might need tweaking.)
+(These instructions assume you're using a Unix-like OS.  It should all work on Windows too, but installation might need tweaking. They also assume you've a recent version of MySQL, git, rubygems, bundler installed.  If not, install those first.)
 
-Download or clone this git repository in to an empty directory, e.g. `cms`.  Then:
-
-    cd cms
+    git clone git://github.com/dsc-os/kit-app.git
+    cd kit-app
+    bundle
+    rake db:reset
+    rake db:data:load
+    vendor/es/bin/elasticsearch
+    rails s thin
     
+Now visit (http://localhost:3000)[http://localhost:3000].  The default admin email is "demo@dsc.net" and password "demodemo".  Optionally, to change the default admin email do:
+
+    rails dbconsole
+    update users set email = 'YOUREMAIL@YOURDOMAIN' where email = 'demo@demo.com';
+    exit
+    
+
+
+
     
