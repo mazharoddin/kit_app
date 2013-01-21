@@ -91,7 +91,7 @@ GEM
     kaminari (0.14.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
-    kit_cms (2.3.14)
+    kit_cms (2.3.15)
       best_in_place
       browser
       cancan
