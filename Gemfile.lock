@@ -91,7 +91,7 @@ GEM
     kaminari (0.14.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
-    kit_cms (2.3.13)
+    kit_cms (2.3.14)
       best_in_place
       browser
       cancan
@@ -116,7 +116,6 @@ GEM
       paperclip (~> 2.3)
       rails (~> 3.2.1)
       rdiscount
-      rmagick
       ruby-stemmer
       sanitize
       tire
@@ -176,12 +175,11 @@ GEM
       json (~> 1.4)
     rest-client (1.6.7)
       mime-types (>= 1.16)
-    rmagick (2.13.1)
     ruby-stemmer (0.9.3)
     sanitize (2.0.3)
       nokogiri (>= 1.4.4, < 1.6)
     sass (3.2.5)
-    sass-rails (3.2.5)
+    sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
