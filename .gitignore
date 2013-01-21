@@ -1,3 +1,4 @@
+*.swp
 *.rbc
 *.sassc
 .sass-cache
@@ -10,6 +11,7 @@ capybara-*.html
 /db/*.sqlite3
 /public/system/*
 /public/assets/*
+/public/kit/*
 /coverage/
 /spec/tmp/*
 **.orig
