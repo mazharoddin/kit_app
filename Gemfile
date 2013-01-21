@@ -8,6 +8,7 @@ gem 'rails', '3.2.11'
 gem 'thin'
 gem 'mysql2'
 gem 'kit_cms'
+gem 'therubyracer'
 
 # Gems used only for assets and not required
 # in production environments by default.
