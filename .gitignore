@@ -15,6 +15,6 @@ capybara-*.html
 **.orig
 rerun.txt
 pickle-email-*.html
-/vendor/elastic-search*/data
-/vendor/elastic-search*/tmp
+/vendor/elasticsearch*/tmp
+/vendor/elasticsearch*/data
 /vendor/es/*
