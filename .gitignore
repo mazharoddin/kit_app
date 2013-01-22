@@ -17,4 +17,8 @@ rerun.txt
 pickle-email-*.html
 /vendor/elasticsearch*/tmp
 /vendor/elasticsearch*/data
+/vendor/elastic-search*/tmp
+/vendor/elastic-search*/data
 /vendor/es/*
+kit_cms
+/public/kit/*

@@ -7,7 +7,7 @@ gem 'rails', '3.2.11'
 
 gem 'thin'
 gem 'mysql2'
-gem 'kit_cms'
+gem 'kit_cms', :path=>"kit_cms"
 gem 'therubyracer'
 
 # Gems used only for assets and not required
